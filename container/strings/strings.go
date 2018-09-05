@@ -7,7 +7,7 @@ import (
 
 // go中解决中文
 func main() {
-	s := "东大研究生"		// 汉字 3 byte
+	s := "东大研究生" // 汉字 3 byte
 	fmt.Println(s)
 
 	for _, b := range []byte(s) {
@@ -15,7 +15,7 @@ func main() {
 	}
 	fmt.Println()
 
-	for i, ch := range s {	// ch is a rune, rune is 32bit
+	for i, ch := range s { // ch is a rune, rune is 32bit
 		fmt.Printf("(%d %X)", i, ch)
 	}
 	fmt.Println()

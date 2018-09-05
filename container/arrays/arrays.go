@@ -4,7 +4,7 @@ import "fmt"
 
 func printArray(arr [5]int) {
 	arr[0] = 100
-	for i, v := range  arr {
+	for i, v := range arr {
 		fmt.Println(i, v)
 	}
 }
@@ -12,7 +12,7 @@ func printArray(arr [5]int) {
 func printArrayByPointer(arr *[5]int) {
 	// (*arr)[0] = 100
 	arr[0] = 100
-	for i, v := range  arr {
+	for i, v := range arr {
 		fmt.Println(i, v)
 	}
 }

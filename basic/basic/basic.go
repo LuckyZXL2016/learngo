@@ -1,4 +1,4 @@
-package basic
+package main
 
 import (
 	"fmt"
@@ -66,7 +66,7 @@ func enums() {
 	)
 
 	const (
-		cpp1    = iota
+		cpp1 = iota
 		_
 		java1   = 1
 		python1 = 2
@@ -74,7 +74,7 @@ func enums() {
 	)
 
 	// b, kb, mb, gb, tb, pb
-	const(
+	const (
 		b = 1 << (10 * iota)
 		// 下面依次也会执行
 		kb
