@@ -6,6 +6,7 @@ package queue
 type Queue []int
 
 func (q *Queue) Push(v int) {
+	// q = append(q, v),此时出错,q为地址而不是append所需的slice
 	*q = append(*q, v)
 }
 
