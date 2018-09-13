@@ -154,7 +154,18 @@
 - runtime.Gosched()
 - 等待锁，函数调用（有时）
 
+<br>
 
+## 九、Go：channel（[代码](https://github.com/ZzXxL1994/learngo/tree/master/channel)）
+**1. Groutine和channels实现了CSP(Communicating Sequential Processes)模型**
+
+**2. channles在goroutine的通信和同步中承担着重要的角色**
+
+**3. channel实现四个特性：**
+- goroutine安全
+- 在不同的goroutine之间存储和传输值 
+- 提供FIFO语义(buffered channel提供) 
+- 可以让goroutine block/unblock
 
 
 
