@@ -1,6 +1,6 @@
 # Go语言学习
 
-## 一、Go：变量定义（[代码](https://github.com/ZzXxL1994/learngo/blob/master/basic/basic)）
+## 一、Golang：变量定义（[代码](https://github.com/ZzXxL1994/learngo/blob/master/basic/basic)）
 **1. 变量定义要点：**
 - 变量类型写在变量名之后
 - 编译器可推测变量类型
@@ -15,7 +15,7 @@
 
 <br>
 
-## 二、Go：条件和循环（[代码1](https://github.com/ZzXxL1994/learngo/tree/master/basic/branch)，[代码2](https://github.com/ZzXxL1994/learngo/tree/master/basic/loop)）
+## 二、Golang：条件和循环（[代码1](https://github.com/ZzXxL1994/learngo/tree/master/basic/branch)，[代码2](https://github.com/ZzXxL1994/learngo/tree/master/basic/loop)）
 **条件、循环要点：**
 - for, if后面的条件没有括号
 - if条件里也可以定义变量
@@ -24,7 +24,7 @@
 
 <br>
 
-## 三、Go：函数和指针（[代码](https://github.com/ZzXxL1994/learngo/tree/master/basic/func)）
+## 三、Golang：函数和指针（[代码](https://github.com/ZzXxL1994/learngo/tree/master/basic/func)）
 **1. 函数要点：**
 - 返回值类型写在最后面
 - 可返回多个值
@@ -38,7 +38,7 @@
 
 <br>
 
-## 四、Go：内建容器（[代码](https://github.com/ZzXxL1994/learngo/tree/master/container)）
+## 四、Golang：内建容器（[代码](https://github.com/ZzXxL1994/learngo/tree/master/container)）
 **1. 数组：**
 - 数组是值类型
 - [10]int和[20]int是不同的类型
@@ -71,7 +71,7 @@
 
 <br>
 
-## 五、Go：面向对象（[代码1](https://github.com/ZzXxL1994/learngo/tree/master/tree)，[代码2](https://github.com/ZzXxL1994/learngo/tree/master/queue)）
+## 五、Golang：面向对象（[代码1](https://github.com/ZzXxL1994/learngo/tree/master/tree)，[代码2](https://github.com/ZzXxL1994/learngo/tree/master/queue)）
 **1. Go不能算是一种面向对象的语言：**
 - go只支持封装，不支持继承和多态
 - go只有struct，没有class
@@ -104,7 +104,7 @@
 
 <br>
 
-## 六、Go：面向接口（[代码](https://github.com/ZzXxL1994/learngo/tree/master/retriever)）
+## 六、Golang：面向接口（[代码](https://github.com/ZzXxL1994/learngo/tree/master/retriever)）
 **1. go语言的duck typing：**
 - 具有python，cpp的duck typing的灵活性
 - 又具有java的类型检查
@@ -119,7 +119,7 @@
 
 <br>
 
-## 七、Go：函数式编程（[代码](https://github.com/ZzXxL1994/learngo/tree/master/functional)）
+## 七、Golang：函数式编程（[代码](https://github.com/ZzXxL1994/learngo/tree/master/functional)）
 **1. 函数式编程 vs 函数指针：**
 - 函数是一等公民：参数，变量，返回值都可以是函数
 - 高阶函数
@@ -136,7 +136,7 @@
 
 <br>
 
-## 八、Go：goroutine（[代码](https://github.com/ZzXxL1994/learngo/tree/master/goroutine)）
+## 八、Golang：goroutine（[代码](https://github.com/ZzXxL1994/learngo/tree/master/goroutine)）
 **1. 与协程Coroutine相似：**
 - 轻量级“线程”
 - 非抢占式多任务处理，由协程主动交出控制权
@@ -156,7 +156,7 @@
 
 <br>
 
-## 九、Go：channel（[代码](https://github.com/ZzXxL1994/learngo/tree/master/channel)）
+## 九、Golang：channel（[代码](https://github.com/ZzXxL1994/learngo/tree/master/channel)）
 **1. Groutine和channels实现了CSP(Communicating Sequential Processes)模型**
 
 **2. channles在goroutine的通信和同步中承担着重要的角色**
